@@ -4,3 +4,5 @@ My skills and interests:
 - Communication
 - Programming
 - Teamwork
+- Git basics
+- Time management
