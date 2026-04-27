@@ -1,0 +1,4 @@
+My name is Dalal Alqarni.
+My field is Programming.
+My favorite programming language is Java.
+I want to learn Git and GitHub to manage code and projects.
