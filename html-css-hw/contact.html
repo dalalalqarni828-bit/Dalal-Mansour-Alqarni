@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h2 class="logo">DALAL</h2>
+    <div>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="table.html" class="nav-link">Table</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Contact Me</h1>
+
+    <form>
+        <label>Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Password</label>
+        <input type="password">
+
+        <label>Gender</label>
+        <div class="inline">
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+        </div>
+
+        <label>Skills</label>
+        <div class="inline">
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> Java
+        </div>
+
+        <label>Country</label>
+        <select>
+            <option>    </option>
+            <option>Saudi Arabia</option>
+            <option>UAE</option>
+        </select>
+
+        <label>City</label>
+        <input list="cities">
+        <datalist id="cities">
+            <option value="Riyadh">
+            <option value="Jeddah">
+            <option value="Abha">
+        </datalist>
+
+        <label>Message</label>
+        <textarea rows="4"></textarea>
+
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </form>
+</div>
+
+<footer>
+    <p>© 2026 Dalal Alqarni</p>
+</footer>
+
+</body>
+</html>
